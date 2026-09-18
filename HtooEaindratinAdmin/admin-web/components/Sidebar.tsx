@@ -1,0 +1,3 @@
+import Link from 'next/link'
+export default function Sidebar({role}:{role:string}){return <aside className="side"><div className="brand"><span className="brand-mark">ML</span><div><div className="brand-name">Myanmar Logistics</div><div className="brand-sub">Operations</div></div></div><div className="nav">
+    {role==='ADMIN'?<><Link href="/admin">Dashboard</Link><Link href="/admin/profiles">Profiles</Link><Link href="/admin/shipments">Shipments</Link><Link href="/admin/routes">Routes</Link><Link href="/admin/alerts">Alerts</Link></>:<><Link href="/trader">Dashboard</Link><Link href="/trader/shipments">My Shipments</Link><Link href="/trader/request">Create Shipment</Link></>}</div></aside>}

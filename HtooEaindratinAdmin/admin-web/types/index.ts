@@ -1,0 +1,2 @@
+export type Role='ADMIN'|'TRADER'
+export type ShipmentStatus='REQUESTED'|'PICKED_UP'|'IN_TRANSIT'|'CHECKPOINT'|'DELAYED'|'CUSTOMS'|'DELIVERED'
