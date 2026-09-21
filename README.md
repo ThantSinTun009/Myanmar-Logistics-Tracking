@@ -90,3 +90,20 @@ npx expo start
 ```
 
 Supabase environment variables are not required in demo mode. When Supabase is added later, populate the environment files using the examples in each app.
+
+---
+
+### Prototype Demo
+
+<table>
+  <tr>
+    <td align="center"><b>Login & Access</b></td>
+    <td align="center"><b>Logistics Tracking System</b></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/8a0c5306-4bf0-42c3-a0a8-03c58ac8477d" alt="Login & Access" width="450"></td>
+    <td><img src="https://github.com/user-attachments/assets/d82be505-2d0b-49a7-8e44-2fefbff1cf3c" alt="Logistics Tracking System" width="450"></td>
+  </tr>
+</table>
+
+---
