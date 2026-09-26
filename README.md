@@ -3,8 +3,10 @@
 **Rapid Prototype for Smarter Logistics Monitoring**
 
 **Assignment:** AIEF-2, Assignment 5
+
 **Instructor:** Dr. Ye Kyaw Thu
-**Group:** Group 4
+
+**Submission:**  Group 4
 
 ---
 
@@ -16,7 +18,7 @@ System တွင် အဓိကအားဖြင့် **Admin, Trader နှ�
 
 ---
 
-## 2. ပြဿနာအခြေအနေ
+## 2. Problem Statement
 
 Myanmar logistics process အတွင်းတွင် border gate closures, checkpoints နှင့် customs delays များကြောင့် route disruption နှင့် shipment delays များ ဖြစ်ပေါ်နိုင်သည်။
 
@@ -31,9 +33,9 @@ Myanmar logistics process အတွင်းတွင် border gate closures, c
 
 ---
 
-## 3. ရည်ရွယ်ချက်
+## 3. Project Objectives
 
-ဒီ project ရဲ့ အဓိကရည်ရွယ်ချက်က logistics process အတွင်းရှိ shipment information များကို **centralized system** တစ်ခုအတွင်း စုစည်းပြီး stakeholder များအနေဖြင့် shipment status နှင့် location information များကို ပိုမိုလွယ်ကူစွာ စောင့်ကြည့်နိုင်ရန် ဖြစ်သည်။
+ဒီ project ရဲ့ အဓိကရည်ရွယ်ချက်က logistics process အတွင်းရှိ shipment information များကို **centralized system** တစ်ခုအတွင်း စုစည်းပြီး stakeholder များအနေဖြင့် shipment status နှင့် location information များကို ပိုမိုလွယ်ကူစွာ စောင့်ကြည့်နိုင်ရန် ဖြစ်ပါတယ် ။
 
 System မှတစ်ဆင့် -
 
@@ -120,31 +122,31 @@ Trader & Driver Notification
 
 **1. Trader Requests Shipment**
 
-Trader သည် shipment တစ်ခုကို system မှတစ်ဆင့် request ပြုလုပ်သည်။
+- Trader သည် shipment တစ်ခုကို system မှတစ်ဆင့် request ပြုလုပ်သည်။
 
 **2. Admin Assigns Driver**
 
-Admin သည် request ရရှိသော shipment အတွက် သင့်လျော်သော Driver ကို assign လုပ်သည်။
+- Admin သည် request ရရှိသော shipment အတွက် သင့်လျော်သော Driver ကို assign လုပ်သည်။
 
 **3. Driver Picks Up Shipment**
 
-Driver သည် shipment ကို pickup ပြုလုပ်သည်။
+- Driver သည် shipment ကို pickup ပြုလုပ်သည်။
 
 **4. Driver Updates Status and Location**
 
-Driver သည် shipment ၏ status နှင့် location ကို update ပြုလုပ်သည်။
+- Driver သည် shipment ၏ status နှင့် location ကို update ပြုလုပ်သည်။
 
 **5. Admin Monitors Shipment**
 
-Admin သည် shipment information ကို real-time အနေဖြင့် monitor လုပ်နိုင်သည်။
+- Admin သည် shipment information ကို real-time အနေဖြင့် monitor လုပ်နိုင်သည်။
 
 **6. Disruption Handling**
 
-Route disruption, checkpoint သို့မဟုတ် delay ဖြစ်ပေါ်ပါက system အတွင်း shipment status ကို update ပြုလုပ်ပြီး alert ပို့နိုင်သည်။
+- Route disruption, checkpoint သို့မဟုတ် delay ဖြစ်ပေါ်ပါက system အတွင်း shipment status ကို update ပြုလုပ်ပြီး alert ပို့နိုင်သည်။
 
 **7. Trader and Driver Notification**
 
-သက်ဆိုင်သော Trader နှင့် Driver များသည် status update နှင့် alert information များကို ရရှိနိုင်သည်။
+- သက်ဆိုင်သော Trader နှင့် Driver များသည် status update နှင့် alert information များကို ရရှိနိုင်သည်။
 
 ---
 
@@ -152,39 +154,39 @@ Route disruption, checkpoint သို့မဟုတ် delay ဖြစ်ပ�
 
 ### Role-Based Access
 
-User တစ်ဦးချင်းစီ၏ role အပေါ်မူတည်ပြီး သက်ဆိုင်ရာ dashboard နှင့် functions များကို အသုံးပြုနိုင်သည်။
+- User တစ်ဦးချင်းစီ၏ role အပေါ်မူတည်ပြီး သက်ဆိုင်ရာ dashboard နှင့် functions များကို အသုံးပြုနိုင်သည်။
 
 ### Admin Dashboard
 
-Admin သည် system အတွင်းရှိ shipments, routes, users နှင့် alerts များကို စီမံခန့်ခွဲနိုင်သည်။
+- Admin သည် system အတွင်းရှိ shipments, routes, users နှင့် alerts များကို စီမံခန့်ခွဲနိုင်သည်။
 
 ### Shipment Tracking
 
-Shipment ၏ status နှင့် location ကို စောင့်ကြည့်နိုင်သည်။
+- Shipment ၏ status နှင့် location ကို စောင့်ကြည့်နိုင်သည်။
 
 ### Live Shipment Map
 
-Shipment location များကို map ပေါ်တွင် ကြည့်ရှုနိုင်ပြီး tracking timeline မှတစ်ဆင့် movement information များကို စောင့်ကြည့်နိုင်သည်။
+- Shipment location များကို map ပေါ်တွင် ကြည့်ရှုနိုင်ပြီး tracking timeline မှတစ်ဆင့် movement information များကို စောင့်ကြည့်နိုင်သည်။
 
 ### Driver Assignment
 
-Admin သည် shipment များအတွက် Driver များကို assign လုပ်နိုင်သည်။
+- Admin သည် shipment များအတွက် Driver များကို assign လုပ်နိုင်သည်။
 
 ### Location Updates
 
-Driver သည် shipment ၏ လက်ရှိ location ကို update ပြုလုပ်နိုင်သည်။
+- Driver သည် shipment ၏ လက်ရှိ location ကို update ပြုလုပ်နိုင်သည်။
 
 ### Alerts & Notifications
 
-Route disruption, checkpoint နှင့် delay စသည့် အခြေအနေများအတွက် သက်ဆိုင်ရာ alert information များကို စီမံနိုင်သည်။
+- Route disruption, checkpoint နှင့် delay စသည့် အခြေအနေများအတွက် သက်ဆိုင်ရာ alert information များကို စီမံနိုင်သည်။
 
 ### User Profiles & Documents
 
-User profiles နှင့် shipment documents များကို စနစ်အတွင်း စီမံကြည့်ရှုနိုင်သည်။
+- User profiles နှင့် shipment documents များကို စနစ်အတွင်း စီမံကြည့်ရှုနိုင်သည်။
 
 ### Self-Signup
 
-Trader နှင့် Driver များအတွက် self-signup functionality ပါဝင်သည်။
+- Trader နှင့် Driver များအတွက် self-signup functionality ပါဝင်သည်။
 
 ---
 
@@ -213,13 +215,15 @@ Prototype ၏ အဓိကရည်ရွယ်ချက်မှာ fragmented 
 
 Project development အတွင်း အောက်ပါ challenges များကို တွေ့ကြုံခဲ့ရသည်။
 
-### Mobile Application Experience မရှိခြင်း
+### Mobile Application Development ပြုလုပ်ခြင်းတွင် Prior Experience မရှိခြင်း
 
 Team အနေဖြင့် Mobile Application development အတွေ့အကြုံ မရှိခဲ့သောကြောင့် Mobile-related implementation များတွင် learning curve ရှိခဲ့သည်။
 
 ### Vibe Coding တစ်ခုတည်းဖြင့် မလုံလောက်ခြင်း
 
-AI-assisted coding ကို အသုံးပြုနိုင်သော်လည်း system တစ်ခုလုံးကို နားလည်ခြင်း၊ debugging ပြုလုပ်ခြင်းနှင့် architecture ဆုံးဖြတ်ခြင်းများအတွက် developer ၏ ကိုယ်ပိုင်နားလည်မှု လိုအပ်ကြောင်း တွေ့ရှိခဲ့သည်။
+AI-assisted coding ကို အသုံးပြုနိုင်သော်လည်း system တစ်ခုလုံးကို နားလည်ခြင်း၊ debugging ပြုလုပ်ခြင်းနှင့် architecture ဆုံးဖြတ်ခြင်းများအတွက် 
+
+developer ၏ ကိုယ်ပိုင်နားလည်မှု လိုအပ်ကြောင်း တွေ့ရှိခဲ့သည်။ Foundational understanding မရှိထားသည့်အတွက် အနည်းငယ် ခက်ခဲခဲ့တယ်။ သို့သော် တစ်ဆင့်ချင်းဆီ အဖွဲ့လိုက် လေ့လာ၍ ကြိုးစား လုပ်ဆောင်နိုင်ခဲ့ကြပါသည်။
 
 ### Dependency Mismatch Errors
 
@@ -227,7 +231,7 @@ Development အတွင်း dependency များအကြား compatibil
 
 ### Team Learning
 
-ဒီ challenges များမှတစ်ဆင့် individual အနေဖြင့်သာမက team အနေဖြင့်ပါ လေ့လာတိုးတက်နိုင်ခဲ့သည်။
+ဒီ challenges များမှတစ်ဆင့် individual အနေဖြင့်သာမက team အနေဖြင့်ပါ လေ့လာတိုးတက်နိုင်ခဲ့ခြင်းကတော့ အားသာချက် တစ်ခု ဖြစ်ပါသည်။
 
 ---
 
@@ -264,22 +268,12 @@ Project development အတွက် အောက်ပါ technologies နှင
 
 ---
 
-## 11. Project Repository
-
-**Myanmar Logistics Tracking**
-
-GitHub Repository:
-
-https://github.com/ThantSinTun009/Myanmar-Logistics-Tracking
-
-ဒီ repository တွင် project source code နှင့် project-related materials များကို သိမ်းဆည်းထားသည်။
-
----
-
-## 12. အနှစ်ချုပ်
+## 12. Overall
 
 **Myanmar Logistics & Tracking System** သည် Myanmar logistics environment အတွင်း ဖြစ်ပေါ်နိုင်သော route disruption, communication gap, shipment delay နှင့် lack of visibility ပြဿနာများကို ဖြေရှင်းရန် ရည်ရွယ်တည်ဆောက်ထားသော rapid prototype ဖြစ်သည်။
 
 Admin, Trader နှင့် Driver တို့အတွက် role-based system တစ်ခုအဖြစ် shipment request, driver assignment, status update, location tracking, route management နှင့် alert handling စသည့် လုပ်ဆောင်ချက်များကို တစ်နေရာတည်းတွင် စုစည်းပေးထားသည်။
 
 အဓိကအားဖြင့် **fragmented logistics communication မှ centralized shipment visibility သို့** ပြောင်းလဲနိုင်ရန် ရည်ရွယ်ထားသည်။
+
+---
