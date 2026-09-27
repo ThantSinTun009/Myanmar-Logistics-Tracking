@@ -12,19 +12,19 @@
 
 ## 1. Project အကြောင်း
 
-**Myanmar Logistics & Tracking System** သည် မြန်မာနိုင်ငံအတွင်းရှိ logistics နှင့် shipment များကို ပိုမိုထိရောက်စွာ စောင့်ကြည့်၊ စီမံခန့်ခွဲ နှင့် ခြေရာခံနိုင်ရန် ရည်ရွယ်တည်ဆောက်ထားသော **Rapid Prototype** တစ်ခုဖြစ်သည်။
+ကျနော်တို့ Group-4 ၏ **Myanmar Logistics & Tracking System** သည် မြန်မာနိုင်ငံအတွင်းမှာ ရှိတဲ့ logistics နှင့် shipment များကို ပိုမိုထိရောက်စွာ စောင့်ကြည့်၊ စီမံခန့်ခွဲ နှင့် ခြေရာခံနိုင်ရန် ရည်ရွယ်တည်ဆောက်ထားသော **Rapid Prototype** တစ်ခုဖြစ်ပါတယ်။
 
-System တွင် အဓိကအားဖြင့် **Admin, Trader နှင့် Driver** ဆိုသည့် user roles သုံးမျိုး ပါဝင်ပြီး role တစ်ခုချင်းစီအလိုက် လိုအပ်သော functions များကို အသုံးပြုနိုင်အောင် တည်ဆောက်ထားသည်။
+System တွင် အဓိကအားဖြင့် **Admin, Trader နှင့် Driver** ဆိုသည့် user roles သုံးမျိုး ပါဝင်ပြီး role တစ်ခုချင်းစီအလိုက် လိုအပ်သော functions များကို အသုံးပြုနိုင်အောင် တည်ဆောက်ထားတယ်။
 
 ---
 
 ## 2. Problem Statement
 
-Myanmar logistics process အတွင်းတွင် border gate closures, checkpoints နှင့် customs delays များကြောင့် route disruption နှင့် shipment delays များ ဖြစ်ပေါ်နိုင်သည်။
+အဓိကအားဖြင့် Myanmar logistics process အတွင်းမှာရှိတဲ့ border gate closures, checkpoints နှင့် customs delays များကြောင့် route disruption နှင့် shipment delays များ ဖြစ်ပေါ်နိုင်ပါသည်။ ယခု လက်ရှိ နိုင်ငံရေး နှင့် မြေပြင် အနေအထား တွေကြောင့် ဥပမာ ယခင်ထက် check-point များပိုများလာခြင်း နှင့် ရုတ်တရက်ဖြစ်ပေါ်လာနိုင်သော မြေပြင် အခြေအနေများကြောင့် ရှိရင်းစွဲ ပြဿနာများကို ပိုမို ခက်ခဲလာစေနိုင်ပါတယ်။
 
-ထို့အပြင် Trader, Driver နှင့် Manager တို့အကြား communication သည် တစ်နေရာတည်းတွင် စုစည်းထားခြင်းမရှိသောကြောင့် shipment ၏ လက်ရှိအခြေအနေကို အချိန်မီ သိရှိရန် ခက်ခဲနိုင်သည်။
+တစ်ဆက်တည်းမှာပဲ Trader, Driver နှင့် Manager တို့အကြား communication သည် တစ်နေရာတည်းတွင် စုစည်းထားခြင်းမရှိသောကြောင့် shipment ၏ လက်ရှိအခြေအနေကို အချိန်မီ သိရှိရန် ခက်ခဲလာနိုင်ပါတယ်။
 
-အဓိကတွေ့ရှိရသော ပြဿနာများမှာ -
+ဒါကြောင့် အဓိကတွေ့ရှိရသော ပြဿနာများကို အောက်ပါအတိုင်း စာရင်းပြုထားပါတယ်-
 
 * **Route Disruption** — လမ်းကြောင်းများ ပိတ်ခြင်း သို့မဟုတ် ပြောင်းလဲခြင်း
 * **Communication Gap** — Stakeholder များအကြား သတင်းအချက်အလက် ဆက်သွယ်မှု အားနည်းခြင်း
@@ -46,7 +46,7 @@ System မှတစ်ဆင့် -
 * Routes များကို စီမံခန့်ခွဲနိုင်ခြင်း
 * Alerts များကို စီမံခန့်ခွဲနိုင်ခြင်း
 
-တို့ကို ပြုလုပ်နိုင်သည်။
+တို့ကို ပြုလုပ်နိုင်ပါတယ်
 
 ---
 
@@ -264,7 +264,7 @@ Project development အတွက် အောက်ပါ technologies နှင
 * **React** — Web application development
 * **Leaflet** — Map နှင့် location visualization
 
-အသေးစိတ် references များကို project presentation တွင် ဖော်ပြထားသည်။
+အသေးစိတ် references များကို project presentation တွင် ဖော်ပြထားပါတယ်။
 
 ---
 
@@ -274,6 +274,6 @@ Project development အတွက် အောက်ပါ technologies နှင
 
 Admin, Trader နှင့် Driver တို့အတွက် role-based system တစ်ခုအဖြစ် shipment request, driver assignment, status update, location tracking, route management နှင့် alert handling စသည့် လုပ်ဆောင်ချက်များကို တစ်နေရာတည်းတွင် စုစည်းပေးထားသည်။
 
-အဓိကအားဖြင့် **fragmented logistics communication မှ centralized shipment visibility သို့** ပြောင်းလဲနိုင်ရန် ရည်ရွယ်ထားသည်။
+အဓိကအားဖြင့် ကျနော်တို့ Group-4 ရဲ့ Myanmar Logistics Tracking Project ကနေ **fragmented logistics communication မှ centralized shipment visibility သို့** ပြောင်းလဲနိုင်ရန် ရည်ရွယ်ထားပါတယ်။
 
 ---
